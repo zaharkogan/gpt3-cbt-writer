@@ -413,18 +413,3 @@ textarea {
         transform: rotate(360deg);
     }
 }
-
-#speechinput {
-    width: 25px; 
-    height: 25px; 
-    cursor:pointer;
-    border: none;
-    position: absolute;
-    margin-left: 5px;
-    outline: none;
-    background: transparent;
-}
-#mytextarea {
-    height: 300px;
-    width: 100px;
-}
