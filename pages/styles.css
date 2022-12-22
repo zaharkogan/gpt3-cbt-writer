@@ -4,13 +4,13 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Manrope', sans-serif;
+    background-image: url("../assets/background.svg");
 }
 
 .root {
     display: flex;
     place-content: center flex-start;
     align-items: center;
-    background-color: rgb(0, 0, 0);
     flex-flow: column nowrap;
     gap: 10px;
     height: 100vh;
@@ -32,7 +32,7 @@ body {
     padding: 50px;
     position: relative;
     width: auto;
-    gap: 64px;
+    gap: 30px;
 }
 
 .header {    
@@ -412,4 +412,19 @@ textarea {
     100% {
         transform: rotate(360deg);
     }
+}
+
+#speechinput {
+    width: 25px; 
+    height: 25px; 
+    cursor:pointer;
+    border: none;
+    position: absolute;
+    margin-left: 5px;
+    outline: none;
+    background: transparent;
+}
+#mytextarea {
+    height: 300px;
+    width: 100px;
 }
