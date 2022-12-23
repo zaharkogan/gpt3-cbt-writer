@@ -4,7 +4,12 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Manrope', sans-serif;
-    background-image: url("../assets/background.svg");
+    /* background image that's 100% width/length */
+    background-image: url("../assets/background.png"); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .root {
